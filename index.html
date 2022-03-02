@@ -20,29 +20,42 @@
       * {
         box-sizing: border-box;
       }
-     .header {
+      .header {
         background-color: DarkOrange;
-         padding: 2px;
-       text-align: center;
+        padding: 2px;
+        text-align: center;
+        border: 5px outset red;
       }
-      .menu {
+       .menu {
         width: 25%
         float: left;
         padding: 15px;
         border: 1px solid black;
       }
-      .main {
+       .main {
         width: 75%;
         float: left;
         padding: 15px;
         border: 1px solid black;
       }
+      .column {
+  float: left;
+  width: 33.33%;
+  padding: 15px;
+  border:none;
+     }
 
-     p1 {
+     .column1 {
+  float: left;
+  width: 33.33%;
+  padding: 15px;
+  border:solid;
+     }
+
+          p1 {
   text-decoration-line: underline;
   text-decoration-thickness: 5px;
-}
-
+     }
     </style>
 
   </head>
@@ -59,17 +72,30 @@
   <p>This is a page about my digital identity and who i am.</p>
 </div>
 
-   <aside class ="menu">
-    <p1 style="font-size:1.5vw"><b> Table of Contents</p1></b>
-
-
-    <ul>
-        <li style="font-size: 0.8vw"> <a href="childpages /childtemplate.html" target="_blank"> General info about me  </a>
-          <li style="font-size: 0.8vw"> <a href="childpages /childtemplate.html" target="_blank"> What i do out of school</a>
-           <li style="font-size: 0.8vw"> <a href="childpages /childtemplate.html" target="_blank"> Out of school sports</a>
+   <div class="column1">
+    <h2><p1 style="font-size:1.5vw"><b> Table of Contents</p1></b></h2>
+      <ul>
+        <li style="font-size: 0.8vw"> <a href="childpages /childtemplate.html" target="_blank"> General info about me </a>
+          <li style="font-size: 0.8vw"> <a href="childpages /childtemplate.html" target="_blank"> What i do out of school </a>
+           <li style="font-size: 0.8vw"> <a href="childpages /childtemplate.html" target="_blank"> Out of school sports </a>
             </ul>
-              <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
-               <br><br><br><br><br><br>
+             </div>
+
+  <div class="column">
+    <h2>Column</h2>
+  </div>
+
+  <div class="column">
+    <h2>Column</h2>
+  </div>
+
+
+
+
+
+
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+<br><br><br><br><br><br>
 
 <footer>
  <p>&copy Jimmy Luong, powered by Jimbobbrown321 in Github </p>
